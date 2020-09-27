@@ -1,0 +1,18 @@
+.btn {
+    width: 241px;
+    height: 60px;
+    background-color: $main-color;;
+    border: none;
+    border-radius: 5px;
+    a {
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-decoration: none;
+        &:active {
+            color: #08667e;
+        }
+    }
+}

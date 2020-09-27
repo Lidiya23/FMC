@@ -1,0 +1,64 @@
+.advantages {
+    p {
+        margin-top: 176px;
+        font-size: 18px;
+        font-weight: 300;
+        text-align: center;
+        color: #393939;
+    }
+   &__top {
+       padding-top: 79px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       &-first {
+         width: 360px;
+         height: 255px;
+         background: url(../../img/icons/calendar.png) center (center/cover) no-repeat;
+       }
+       &-second {
+           width: 360px;
+           height: 255px;
+           background: url(../../img/icons/schedule.png) center (center/cover) no-repeat;
+       }
+       &-third {
+           width: 360px;
+           height: 255px;
+           background: url(../../img/icons/analyze.png) center (center/cover) no-repeat;
+       }
+   }
+   &__middle {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       height: 226px;
+       justify-content: center;
+       margin-top: 50px;
+       h2 {
+        padding-top: 33px;
+        font-size: 48px;
+        font-weight: 800;
+        color: #393939;
+       }
+   }
+   &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-first {
+        width: 360px;
+        height: 255px;
+        background: url(../../img/icons/payment.png) center (center/cover) no-repeat;
+      }
+      &-second {
+          width: 360px;
+          height: 255px;
+          background: url(../../img/icons/analitycs.png) center (center/cover) no-repeat;
+      }
+      &-third {
+          width: 360px;
+          height: 255px;
+          background: url(../../img/icons/cloud.png) center (center/cover) no-repeat;
+      }
+   }
+}

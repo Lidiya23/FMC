@@ -1,0 +1,107 @@
+.footer {
+    background-color: #0082a1;
+    height: 497px;
+    &__wrapper {
+        padding-top: 49px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__company {
+        width: 377px;
+        height: 248px;
+        h2 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #ffffff; 
+        }
+        &-logo {
+            padding-top: 15px;
+        }
+        &-text {
+            padding-top: 15px;
+            font-size: 14px;
+            font-weight: 300;
+            color: #ffffff;
+        }
+    }
+    &__modules {
+        h2 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #ffffff; 
+        }
+        &-menu {
+            padding-top: 15px;
+            padding-left: 0;
+            li {
+                list-style-type: none;
+                a {
+                    text-decoration: none;
+                    color: #ffffff;
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    &__branches {
+        h2 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #ffffff; 
+        }
+        &-menu {
+            padding-top: 15px;
+            padding-left: 0;
+            li {
+                list-style-type: none;
+                a {
+                    text-decoration: none;
+                    color: #ffffff;
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    &__about {
+        h2 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #ffffff; 
+        }
+        &-menu {
+            padding-top: 15px;
+            padding-left: 0;
+            li {
+                list-style-type: none;
+                a {
+                    text-decoration: none;
+                    color: #ffffff;
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    &__divider {
+        display: block;
+        margin-top: 44px;
+        width: 1171px;
+        height: 1px;
+        background-color: rgba($color: #ffffff, $alpha: 0.3);
+    }
+    &__prengi {
+        display: flex;
+        justify-content: center;
+        padding-top: 36px;
+        h2 {
+            font-size: 13px;
+            font-weight: 300;
+            color: #ffffff;
+        }
+    }
+}

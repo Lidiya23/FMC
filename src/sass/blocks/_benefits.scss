@@ -1,0 +1,81 @@
+.benefits {
+    min-height: 1200px;
+    margin-top: 81px;
+    &__examples {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        &-top {
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 44px;
+            justify-content: center;
+        }
+        &-item-left-top {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 570px;
+            height: 355px;
+            background: url(../../img/little1.jpg);
+        }
+        &-item-right-top {
+            background: url(../../img/little2.jpg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 570px;
+            height: 355px;
+        }
+        &-middle {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &-item-left-middle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 570px;
+            height: 355px;
+            background: url(../../img/little3.jpg);
+        }
+        &-item-right-middle {
+            background: url(../../img/little4.jpg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 570px;
+            height: 355px;
+        }
+        &-bottom {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &-item-left-bottom {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 570px;
+            height: 355px;
+            background: url(../../img/little5.jpg);
+        }
+        &-item-right-bottom {
+            background: url(../../img/little6.jpg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 570px;
+            height: 355px;
+        }
+    }
+    &__text {
+        width: 570px;
+        height: 156px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba($color: #000000, $alpha: 0.4);
+    }
+}
